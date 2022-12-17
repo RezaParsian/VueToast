@@ -1,0 +1,15 @@
+{
+  "name": "@rezaparsian/toast",
+  "version": "0.0.1",
+  "description": "this plugin helps you to show a easy toast.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "toast"
+  ],
+  "author": "RezaParsian",
+  "license": "MIT"
+}
