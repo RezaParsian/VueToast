@@ -22,7 +22,7 @@ export default {
         }
     },
     mounted() {
-        Vue.prototype.$toast = (description, title = null, icon = "success", timeout = 2500, theme = 'default') => {
+        Vue.toast = Vue.prototype.$toast = (description, title = null, icon = "success", timeout = 2500, theme = 'default') => {
             const item = {
                 id: Math.random(),
                 description,
